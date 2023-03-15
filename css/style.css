@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+
+body{
+    background-color: burlywood;
+}
+
+.title{
+    padding-top: 50px;
+    color: aliceblue;
+    font-size: 70px;
+    text-align: center;
+}
+
+.date{ 
+    color: aliceblue;
+    font-size: 70px;
+    text-align: center;
+
+}
+
+.day{
+    padding-top: 20px;
+    width: 1000px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 20px;  
+    
+}
+
+.day div{
+    padding-top: 20px;
+    width: 250px;
+    text-align: center;
+
+}
+
+input{
+    
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-color: transparent;
+    border-radius: 15px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+     
+}
+
+.logo{
+    display: flex;
+    padding-left: 45%;
+    padding-top: 30px;
+    margin: auto;
+}
+
+.insta{
+    padding-right: 35px;
+}
+
+@media screen  and (max-width: 600px){
+
+    body{
+        background-color: rgb(56, 96, 88);
+    }
+    
+    .title{
+        padding-top: 50px;
+        font-size: 50px;
+    }
+    
+    .date{ 
+        font-size: 50px;   
+    }
+    
+    .day{
+        
+        width: 375px;     
+    }
+    .logo{
+        display: flex;
+        padding-left: 35%;
+        padding-top: 30px;
+    }
+}
+
